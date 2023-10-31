@@ -1,4 +1,4 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 lua54 'yes'
 game 'gta5'
 
@@ -9,7 +9,7 @@ shared_scripts {
 }
 
 client_scripts {
-  '@es_extended/locale.lua'
+  '@es_extended/locale.lua',
   'client/*.lua',
   'config.lua'
 }
